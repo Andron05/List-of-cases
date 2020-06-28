@@ -1,0 +1,150 @@
+body {
+    background-color: #FCFCFC;
+    font-family: Arial;
+    padding: 65px 240px
+}
+
+main {
+    position: absolute;
+    margin-top: -65px;
+    margin-left: -70px;
+    width: 950px;
+    height: 555px;
+
+}
+
+main #left {
+    position: absolute;
+    left: 235px;
+    top: 140px;
+    width: 485px;
+    height: 540px;
+    overflow-y:auto;
+}
+
+#NewThing {
+    position: absolute;
+    left: 235px;
+    top: 65px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: normal;
+}
+#del{
+    position: absolute;
+    top: 30px;
+}
+#newElement {
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+    width: 420px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#newElement2 {
+    width: 380px;
+    height: 35px;
+    background-color: white;
+    padding: 20px 20px;
+    padding-bottom: 0;
+}
+
+#close {
+    position: relative;
+    margin-top: 0;
+    margin-right: 50px;
+    height: 25px;
+    width: 25px;
+    background-image: url(img/ButtonDel.png);
+    background-repeat : no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 45px;
+    outline: none;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+#Arow{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    background-image: url(img/Arow.jpg);
+    background-repeat : no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    outline: none;
+    border-radius: 45px;
+    border: none;
+    cursor: pointer;
+}
+#newElement3{
+    color: #8993AD;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: smaller;
+    background-color: white;
+} 
+
+#right {
+    position: absolute;
+    left: 730px;
+    top: 65px;
+    width: 305px;
+    height: 364px;
+}
+
+#ad {
+    background-color: #FFFFFF;
+    width: 305px;
+    height: 360px;
+    padding: 50px 30px;
+
+}
+
+#small {
+    color: #8993AD;
+    margin-top: 30px;
+    font-size: smaller;
+}
+
+#text {
+    background-color: #FCFCFC;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #EBEBEB;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+#textExp {
+    resize: none;
+    background-color: #FCFCFC;
+    width: 300px;
+    height: 150px;
+    border: 1px solid #EBEBEB;
+    font-size: 16px;
+    padding: 10px 10px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+main #adButton {
+    background-color: #2174FD;
+    width: 230px;
+    height: 60px;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+}
